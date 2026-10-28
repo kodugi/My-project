@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
     }
 
-    private float _speed = 5.0f;
+    private float _speed = 4.0f;
     [SerializeField] private float _jumpForce = 500.0f;
     private Rigidbody2D _rb;
     private bool _isJumping = false;
